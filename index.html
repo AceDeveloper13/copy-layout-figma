@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilizando Tailwindcss CSS e FontAwesome para criar layouts</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/3ef46c0712.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body class="w-screen h-screen flex justify-center items-center bg-[#111827]">
+
+    <div class="w-[420px] h-[312px] bg-[#1F2937] rounded-sm py-8 px-6 gap-[20px] flex flex-col relative">
+
+        <div class="h-[64px] flex gap-[15px] flex-wrap">
+
+            <img src="./imgs/MightGuy.jpg" class="w-[64px] h-[64px] rounded-[120px] border-[1.6px] border-[#4F46E5]" alt="Might Guy">
+
+            <div>
+                <h1 class="text-[#FFFFFF] font-semibold">Might Guy</h1>
+                <p class="text-[#9CA3AF]">Konoha Jounin</p>
+            </div>
+        </div>
+
+        <p class="text-[#D1D5DB] text-[14px]">Might Guy (マイト・ガイ, Maito Gai; Panini: "Maito Gai" ou "Might Guy") é um jounin de Konohagakure. Um mestre no taijutsu, ele leva e passa sua sabedoria para os membros do Time Guy.</p>
+
+        <div class=" mt-auto flex justify-between">
+                <div class=" flex gap-[10px] text-white font-semibold text-sm">
+                    <button class="bg-[#4F46E5] rounded-[4px] py-[5px] px-[20px]">Search</button>
+                    <button class="bg-[#374151]  rounded-[4px] py-[5px] px-[20px]">Report</button>
+                </div>
+
+            <button class="bg-[#374151] w-[38px] h-[31px] rounded-sm flex justify-center items-center">
+                <span class="material-icons text-white" style="font-size: 19px">favorite</span>
+            </button>
+        </div>
+        
+    </div>
+
+</body>
+</html>
